@@ -22,6 +22,12 @@ platform :ios do
     cocoapods(
       use_bundle_exec: false
     )
+
+    version = get_version_number_from_plist(scheme: "JenkinsDemo",
+                                        scheme: 'Photo_demo', # optional, or `scheme`
+                                        build_configuration_name: [:env])
+    puts version
+
     build_app(
       scheme: "JenkinsDemo", 
       configuration:options[:env], 
