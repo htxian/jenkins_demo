@@ -25,7 +25,7 @@ platform :ios do
 
     version = get_version_number_from_plist(scheme: "JenkinsDemo",
                                         scheme: 'Photo_demo', # optional, or `scheme`
-                                        build_configuration_name: [:env])
+                                        build_configuration_name: options[:env])
     puts version
 
     build_app(
