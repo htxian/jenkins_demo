@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/htxian/fastlane-plugin-delete_archive_in_xcode
+  revision: 61f4edde420ec66bbc9a897afbc0afaf409e68a8
+  specs:
+    fastlane-plugin-delete_archive_in_xcode (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -208,6 +214,7 @@ PLATFORMS
 DEPENDENCIES
   cocoapods
   fastlane
+  fastlane-plugin-delete_archive_in_xcode!
   fastlane-plugin-versioning
 
 BUNDLED WITH

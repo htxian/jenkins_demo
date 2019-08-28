@@ -5,22 +5,22 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.001814">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.001685">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: cocoapods" time="2.974028">
+      <testcase classname="fastlane.lanes" name="1: cocoapods" time="3.259516">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: get_version_number_from_plist" time="5.908569">
+      <testcase classname="fastlane.lanes" name="2: build_app" time="34.223689">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: build_app" time="22.713045">
+      <testcase classname="fastlane.lanes" name="3: delete_archive_in_xcode" time="0.022732">
         
       </testcase>
     

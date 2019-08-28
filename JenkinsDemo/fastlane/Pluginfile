@@ -3,3 +3,5 @@
 # Ensure this file is checked in to source control!
 
 gem 'fastlane-plugin-versioning'
+
+gem 'fastlane-plugin-delete_archive_in_xcode', git: 'https://github.com/htxian/fastlane-plugin-delete_archive_in_xcode'
